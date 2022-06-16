@@ -1,0 +1,41 @@
+MileStone 1 - java
+
+
+An online Customer Information system wants to leverage the customer Information. 
+Each customer has attributes like id, name, puchaseAmount. 
+Create an Java based application to achieve the following Information.
+
+
+Create an switch case program where user needs to enter number of customer data. If user enters 10 
+then system should create 10 customer records.
+
+Once system created 10 customer records with id, name and puchaseAmount then following are use cases:
+
+
+
+Case1: Display all 10 customer records based on their purchaseAmount in descending order. 
+If two customer have same purchaseAmount then display based on their name in ascending order.
+
+
+Case2: Update a particular Customer's purchase amount by passing the id and updated value as parameter. 
+Example: If you want to update customer records whose id is 5 and purchase amount 100. Then from the ArrayList 
+it will first search the customer whose id is 5 and then It will just add 100 rupees on top of the existing purchaseAmount. 
+Let's say if existing purchaseAmount is 500 for Customer id 5 then it will update to 500+100. 
+After Successfully update it will display the new updated data in console.
+
+
+
+Case3: write an Custom or user defined exception for Case2. 
+Example: If the user provides an id of the customer which is not present in the ArrayList then system will 
+throw an exception "No such id is present in the Record".
+
+
+Case4: Exit (once user enter3 it will exist from the application).
+
+
+
+Skill: 
+Java8
+Inrterfaces
+collections
+
